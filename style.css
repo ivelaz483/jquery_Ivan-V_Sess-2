@@ -1,0 +1,92 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: right;
+    background-color: rgb(102, 51, 0);
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 17px;
+    font-family: 'Montagu Slab', serif;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  #image1 {
+    width:50%;
+    height:100vh;
+}
+
+ .container {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+  .centered {
+    font-family: 'Festive', cursive;
+    font-family: 'Montagu Slab', serif;
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 72px;
+    font-family: 'Brush Script MT', cursive;
+    letter-spacing: 7px;
+  }
+
+  footer {
+    text-align: center;
+    font-family: 'Montagu Slab', serif;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: 'Montagu Slab', serif;
+    font-family: 'Ubuntu', sans-serif;
+
+  }
+
+.flex-container2 {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container2 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 16px;
+  font-family: 'Montagu Slab', serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.flex-container3 {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container3 > div {
+  background-color: none;
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
+  font-family: 'Montagu Slab', serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#image2 {
+  width: 33%;
+}
